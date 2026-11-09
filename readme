@@ -1,0 +1,38 @@
+API de Capitais
+
+API desenvolvida com Node.js, TypeScript e Express para consultar capitais de estados brasileiros.
+
+Como executar
+Instale as dependências:
+
+npm install
+
+Inicie o servidor:
+
+npm run dev
+
+Acesse:
+
+http://localhost:3000
+
+Como consultar
+
+Utilize o método GET:
+
+http://localhost:3000/estados/SP
+
+Exemplo de resposta:
+
+json
+{
+  "sigla": "SP",
+  "capital": "São Paulo"
+}
+
+
+Se a sigla não existir, será retornado o erro 404.
+
+Tecnologias utilizadas
+Node.js
+TypeScript
+Express
